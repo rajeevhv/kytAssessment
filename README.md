@@ -48,3 +48,8 @@ The actual test is modularized to have TestBase and CommonConstants file to mini
 
 There is also further scope for improvement in the code using Page Object Models (POMs) by knowing the pages we are going to encounter in the purchase flow. 
 
+Note:
+----------
+
+Please add the necessary dependencies like Selenium/TestNG versions in your workspace (and classpath) before running the tests.
+
