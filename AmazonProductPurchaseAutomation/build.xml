@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ <suite name="ShoppingAutomationSuite">
+ <listeners>
+ <listener class-name = "TestBase.TestListener"/>
+ </listeners>
+ <parameter name="URL" value="https://www.amazon.in/"/>
+ <parameter name="Browser" value="Chrome"/>
+  <test name="Test">
+    <classes>
+      <class name="Test.shoppingAutomationTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- ShoppingAutomationSuite -->
